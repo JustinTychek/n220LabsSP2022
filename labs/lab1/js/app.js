@@ -39,13 +39,5 @@ function draw() {
   line(vertical, 50, vertical, 150);
   line(vertical, 550, vertical, 650);
 
-  // fill(house);
-  // stroke(house);
-  // strokeWeight(4);
-  // rect(200, 300, 380, 250);
-
-  // fill(roof);
-  // stroke(roof);
-  // triangle(300, 300, 100, 100, 100);
   // circle(mouseX, mouseY, frameCount / 50);
 }
