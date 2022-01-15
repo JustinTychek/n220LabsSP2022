@@ -7,6 +7,7 @@ function setup() {
 function draw() {
   var cloud = "#ebedf0";
 
+  //cloud drawing
   fill(cloud);
   stroke(cloud);
   strokeWeight(2);
@@ -19,17 +20,20 @@ function draw() {
   circle(375, 320, 150);
   circle(450, 320, 150);
 
+  //sun variables
   var vertical = "900";
   var horizontal = "350";
   var orange = "#ff8c42";
   var darkred = "#a23e48";
   var red = "#ff5f5c";
 
+  //sun circle
   strokeWeight(55);
   stroke(red);
   fill(darkred);
   circle(900, 350, 270);
 
+  //sun outer strokes
   strokeWeight(20);
   stroke(orange);
   line(600, horizontal, 700, horizontal);
