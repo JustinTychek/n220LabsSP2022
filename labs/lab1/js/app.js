@@ -5,8 +5,6 @@ function setup() {
 }
 
 function draw() {
-  var house = "#4d4542";
-  var roof = "#97c4a5";
   var cloud = "#ebedf0";
 
   fill(cloud);
