@@ -53,4 +53,5 @@ function calcAverage() {
 function onClick() {
   calcSum();
   calcAverage();
+  txtInput.value = "";
 }
