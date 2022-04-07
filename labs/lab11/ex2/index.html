@@ -6,12 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 11</title>
+    <style>
+        .label {
+            float: left;
+            width: 70px;
+        }
+
+        #colorDiv {
+            width: 200px;
+            height: 100px;
+            margin-bottom: 20px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        #displayColorDiv {
+            height: 50px;
+        }
+    </style>
 
 </head>
 
 <body>
 
-
+    <div id="colorDiv"></div>
+    <div id="displayColorDiv">Current Color: rgb(0,0,0)</div>
+    <div class="label">Red:</div>
+    <button id="red1" data-value="1">+1</button>
+    <button id="red5" data-value="5">+5</button>
+    <button id="red10" data-value="10">+10</button>
+    <br>
+    <br>
+    <div class="label">Green:</div>
+    <button id="green1" data-value="1">+1</button>
+    <button id="green5" data-value="5">+5</button>
+    <button id="green10" data-value="10">+10</button>
+    <br>
+    <br>
+    <div class="label">Blue:</div>
+    <button id="blue1" data-value="1">+1</button>
+    <button id="blue5" data-value="5">+5</button>
+    <button id="blue10" data-value="10">+10</button>
 
     <script src="js/app.js"></script>
 </body>
